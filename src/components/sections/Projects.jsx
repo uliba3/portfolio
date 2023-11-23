@@ -1,11 +1,11 @@
 import Project from "./Project";
-import projects from "../../content";
+import projects from "../../assets/projectsContent";
 
 function Projects() {
     return (
-        <div>
-            {projects.map((project) => (
-                <Project name={project.title} description={project.description} />
+        <div id="projects">
+            {projects.map((project, i) => (
+                <Project key={i} project={project}/>
             ))}
         </div>
     );

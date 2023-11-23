@@ -1,11 +1,19 @@
 // src/components/Main.jsx
-import Description from "./sections/Description";
+import About from "./sections/About";
 import Projects from "./sections/Projects";
 
 function Main() {
+  const container = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+    gap: '2rem',
+    width: '50vw',
+  }
   return (
-    <div >
-      <Description />
+    <div style={container}>
+      <About />
       <Projects />
     </div>
   );

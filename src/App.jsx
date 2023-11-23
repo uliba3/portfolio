@@ -6,7 +6,8 @@ function App() {
   const container = {
       display: 'flex',
       alignItems: 'flex-start',
-      justifyContent: 'space-around',
+      justifyContent: 'space-between',
+      margin: '8rem',
     }
 
   return (
