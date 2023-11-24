@@ -2,7 +2,7 @@ import TodoListImg from "./projectImages/Todo-List.png";
 import CircleGameImg from "./projectImages/CircleGame.png";
 import EtchASketchImg from "./projectImages/Etch-A-Sketch.png";
 import TaskManagerImg from "./projectImages/TaskManager.png";
-import QAwebAppImg from "./projectImages/QAwebApp.png";
+import QAwebAppImg from "./projectImages/QAwebapp.png";
 
 const projects = [
     {
