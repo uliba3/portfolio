@@ -2,6 +2,7 @@ import TodoListImg from "./projectImages/Todo-List.png";
 import CircleGameImg from "./projectImages/CircleGame.png";
 import EtchASketchImg from "./projectImages/Etch-A-Sketch.png";
 import TaskManagerImg from "./projectImages/TaskManager.png";
+import QAwebAppImg from "./projectImages/QAwebApp.png";
 
 const projects = [
     {
@@ -51,6 +52,18 @@ const projects = [
         projectLink: "https://uliba3.github.io/TaskManager/",
         githubLink: "https://github.com/uliba3/TaskManager",
         skills: ["HTML", "CSS", "JavaScript", "React"],
+    },
+    {
+        title: "QAwebApp",
+        description: "A full-stack web application that enables users to post answers to random questions and view responses from other users.",
+        imageLink: QAwebAppImg,
+        style: {
+            width: "10rem",
+            height: "6rem",
+        },
+        projectLink: "https://white-voice-4708.fly.dev/",
+        githubLink: "https://github.com/uliba3/Q-A-backend",
+        skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     }
 ];
 
