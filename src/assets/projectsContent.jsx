@@ -1,8 +1,13 @@
+import TodoListImg from "./projectImages/Todo-List.png";
+import CircleGameImg from "./projectImages/CircleGame.png";
+import EtchASketchImg from "./projectImages/Etch-A-Sketch.png";
+import TaskManagerImg from "./projectImages/TaskManager.png";
+
 const projects = [
     {
         title: "Todo-List",
         description: "a simple web application for managing your todo list. You can add, edit, delete, and reorder your todos easily. The application also supports due dates for your todos.",
-        imageLink: "./src/assets/projectImages/Todo-List.png",
+        imageLink: TodoListImg,
         style: {
             width: "10rem",
             height: "6rem",
@@ -14,7 +19,7 @@ const projects = [
     {
         title: "CircleGame",
         description: "Place your circles strategically. Your circle grows in size. Collisions with the canvas edges or other circles result in the end of the game. Grow your circles as large and numerous as possible!!",
-        imageLink: "src/assets/projectImages/CircleGame.png",
+        imageLink: CircleGameImg,
         style: {
             width: "10rem",
             height: "7rem",
@@ -26,7 +31,7 @@ const projects = [
     {
         title: "Etch-A-Sketch",
         description: "A simple and fun web application that lets you unleash your creativity by creating and saving grids of customizable sizes. Experience the joy of drawing and doodling in a digital space!",
-        imageLink: "src/assets/projectImages/Etch-A-Sketch.png",
+        imageLink: EtchASketchImg,
         style: {
             width: "10rem",
             height: "8rem",
@@ -38,7 +43,7 @@ const projects = [
     {
         title: "TaskManager",
         description: "A simple web application that allows users to add, edit, and delete tasks, as well as sort tasks based on due date or starting date. The application also supports drag-and-drop functionality for reordering tasks.",
-        imageLink: "src/assets/projectImages/TaskManager.png",
+        imageLink: TaskManagerImg,
         style: {
             width: "10rem",
             height: "4.5rem",
