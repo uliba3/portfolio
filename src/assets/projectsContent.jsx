@@ -2,7 +2,7 @@ const projects = [
     {
         title: "Todo-List",
         description: "a simple web application for managing your todo list. You can add, edit, delete, and reorder your todos easily. The application also supports due dates for your todos.",
-        imageLink: "src/assets/projectImages/Todo-List.png",
+        imageLink: "./src/assets/projectImages/Todo-List.png",
         style: {
             width: "10rem",
             height: "6rem",
