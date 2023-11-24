@@ -1,7 +1,7 @@
-import TodoListImg from "../../assets/projectImages/Todo-List.png";
-import CircleGameImg from "../../assets/projectImages/CircleGame.png";
-import EtchASketchImg from "../../assets/projectImages/Etch-A-Sketch.png";
-import TaskManagerImg from "../../assets/projectImages/TaskManager.png";
+import TodoListImg from "./projectImages/Todo-List.png";
+import CircleGameImg from "./projectImages/CircleGame.png";
+import EtchASketchImg from "./projectImages/Etch-A-Sketch.png";
+import TaskManagerImg from "./projectImages/TaskManager.png";
 
 const projects = [
     {
