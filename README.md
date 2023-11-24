@@ -1,6 +1,7 @@
 # My Portfolio Website
 
 Welcome to my portfolio website! This site serves as a showcase of my skills, projects, and personal information. Below, you'll find a brief overview of the site structure and components.
+[Visit My Portfolio!!](https://uliba3.github.io/portfolio/)
 
 ![screenshot of the website](src/assets/screenshot.png)
 
