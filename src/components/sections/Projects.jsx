@@ -1,5 +1,5 @@
 import Project from "./Project";
-import projects from "../../assets/projectsContent";
+import projects from "./projectsContent";
 
 function Projects() {
     return (
