@@ -9,6 +9,7 @@ const projects = [
         },
         projectLink: "https://uliba3.github.io/Todo-List/dist/",
         githubLink: "https://github.com/uliba3/Todo-List",
+        skills: ["HTML", "CSS", "JavaScript"],
     },
     {
         title: "CircleGame",
@@ -20,6 +21,7 @@ const projects = [
         },
         projectLink: "https://uliba3.github.io/CircleGame/",
         githubLink: "https://github.com/uliba3/CircleGame",
+        skills: ["HTML", "CSS", "JavaScript"],
     },
     {
         title: "Etch-A-Sketch",
@@ -31,6 +33,7 @@ const projects = [
         },
         projectLink: "https://uliba3.github.io/Etch-A-Sketch/",
         githubLink: "https://github.com/uliba3/Etch-A-Sketch",
+        skills: ["HTML", "CSS", "JavaScript"],
     },
     {
         title: "TaskManager",
@@ -42,6 +45,7 @@ const projects = [
         },
         projectLink: "https://uliba3.github.io/TaskManager/",
         githubLink: "https://github.com/uliba3/TaskManager",
+        skills: ["HTML", "CSS", "JavaScript", "React"],
     }
 ];
 

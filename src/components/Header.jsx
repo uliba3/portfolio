@@ -10,7 +10,7 @@ function Header() {
     flexDirection: 'column',
     alignItems: 'flex-start',
     gap: '2rem',
-    width: '50vw',
+    width: '25vw',
   }
 
   return (

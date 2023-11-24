@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { linkStyle } from "../../assets/styles";
+import Skills from "./Skills";
 
 function Project({project}) {
     const [isHover, setIsHover] = useState(false);
-    const { projectLink, githubLink, imageLink, title, description, style } = project;
+    const { projectLink, githubLink, imageLink, title, description, style, skills } = project;
     const imageLinkStyle = {
         gridArea: "imageLink",
     }
@@ -16,6 +17,7 @@ function Project({project}) {
     }
     const container = {
         padding: "1rem",
+        margin: "1rem",
         display: "grid",
         gridTemplateAreas: `
             "imageLink name name"
@@ -23,8 +25,7 @@ function Project({project}) {
             ". description description"
         `,
         gap: "0.5rem",
-        backgroundColor: isHover ? 'ghostwhite' : 'white',
-        border: isHover ? '1px solid lightgray' : '1px solid white',
+        boxShadow: isHover ? "rgba(0, 0, 0, 0.35) 0px 5px 15px" : "none",
     }
     return (
         <div style={container} onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
@@ -32,7 +33,10 @@ function Project({project}) {
             <div style={nameStyle}>
                 <a href={projectLink} target="_blank" style={linkStyle}>{title}</a>  <a href={githubLink} target="_blank" style={linkStyle}><FaGithub/></a>
             </div>
-            <div style={descriptionStyle}>{description}</div>
+            <div style={descriptionStyle}>
+                {description}
+                <Skills skills={skills}/>
+            </div>
         </div>
     );
 }

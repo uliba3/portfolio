@@ -1,5 +1,5 @@
-import { githubLink, linkedinLink } from "../../assets/linksContent"
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { emailLink, githubLink, linkedinLink } from "../../assets/linksContent"
+import { FaGithubSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { linkStyle } from "../../assets/styles";
 
 function Links() {
@@ -9,8 +9,11 @@ function Links() {
     };
     return (
         <div>
-            <a href={githubLink} target="_blank" style={style}><FaGithubSquare/></a>
-            <a href={linkedinLink} target="_blank" style={style}><FaLinkedin/></a>
+            <div>
+                <a href={githubLink} target="_blank" style={style}><FaGithubSquare/></a>
+                <a href={linkedinLink} target="_blank" style={style}><FaLinkedin/></a>
+            </div>
+            <a href={emailLink} style={linkStyle}>yasoo8449@gmail.com</a>
         </div>
     )
 }
