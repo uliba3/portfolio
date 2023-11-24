@@ -55,7 +55,7 @@ const projects = [
     },
     {
         title: "QAwebApp",
-        description: "A full-stack web application that enables users to post answers to random questions and view responses from other users.",
+        description: "A full-stack web application that enables users to post answers to random questions and view random answers from other users.",
         imageLink: QAwebAppImg,
         style: {
             width: "10rem",
