@@ -1,10 +1,10 @@
-import { linkStyle } from "../../assets/styles";
+import NavigationLink from "./NavigationLink";
 
 function Navigation () {
     return (
         <nav>
-            <div><a href="#about" style={linkStyle}>-About</a></div>
-            <div><a href="#projects" style={linkStyle}>-Projects</a></div>
+            <NavigationLink link="#about" name="About" />
+            <NavigationLink link="#projects" name="Projects" />
         </nav>
     )
 }

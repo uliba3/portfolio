@@ -3,10 +3,14 @@ import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { linkStyle } from "../../assets/styles";
 
 function Links() {
+    const style = {
+        ...linkStyle,
+        fontSize: '32px',
+    };
     return (
         <div>
-            <a href={githubLink} target="_blank" style={linkStyle}><FaGithubSquare/></a>
-            <a href={linkedinLink} target="_blank" style={linkStyle}><FaLinkedin/></a>
+            <a href={githubLink} target="_blank" style={style}><FaGithubSquare/></a>
+            <a href={linkedinLink} target="_blank" style={style}><FaLinkedin/></a>
         </div>
     )
 }
