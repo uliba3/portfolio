@@ -8,6 +8,7 @@ function App() {
       alignItems: 'flex-start',
       justifyContent: 'space-between',
       margin: '8rem',
+      flexWrap: 'wrap',
     }
 
   return (
