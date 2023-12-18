@@ -22,7 +22,6 @@ function Project({project}) {
         gridTemplateAreas: `
             "imageLink name name"
             "imageLink description description"
-            ". description description"
         `,
         gap: "0.5rem",
         boxShadow: isHover ? "rgba(0, 0, 0, 0.35) 0px 5px 15px" : "none",
