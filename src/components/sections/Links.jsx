@@ -1,5 +1,5 @@
 import { emailLink, githubLink, linkedinLink } from "../../assets/linksContent"
-import { FaGithubSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { linkStyle } from "../../assets/styles";
 
 function Links() {
