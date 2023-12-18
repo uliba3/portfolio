@@ -3,6 +3,7 @@ import CircleGameImg from "./projectImages/CircleGame.png";
 import EtchASketchImg from "./projectImages/Etch-A-Sketch.png";
 import TaskManagerImg from "./projectImages/TaskManager.png";
 import QAwebAppImg from "./projectImages/QAwebapp.png";
+import BookStoreImg from "./projectImages/BookStore.png";
 
 const projects = [
     {
@@ -51,7 +52,7 @@ const projects = [
         },
         projectLink: "https://uliba3.github.io/TaskManager/",
         githubLink: "https://github.com/uliba3/TaskManager",
-        skills: ["HTML", "CSS", "JavaScript", "React"],
+        skills: ["React"],
     },
     {
         title: "QAwebApp",
@@ -63,7 +64,19 @@ const projects = [
         },
         projectLink: "https://white-voice-4708.fly.dev/",
         githubLink: "https://github.com/uliba3/Q-A-backend",
-        skills: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
+        skills: ["React", "Node.js", "Express", "MongoDB"],
+    },
+    {
+        title: "BookStore",
+        description: "A full-stack web application that allows users to search for books and save books in their wishlist or history.",
+        imageLink: BookStoreImg,
+        style: {
+            width: "10rem",
+            height: "5rem",
+        },
+        projectLink: "https://bookstore-backend.fly.dev/",
+        githubLink: "https://github.com/uliba3/BookStore-backend",
+        skills: ["React", "Node.js", "Express", "MongoDB", "Google Books API"],
     }
 ];
 
